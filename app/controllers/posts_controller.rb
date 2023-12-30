@@ -6,7 +6,9 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
+    @category = Category.find(@post.category_id).name
+    
     @comments = Comment.where(post_id: @post.id)
-    render json: { post: @post, comments: @comments }
+    render json: { post: @post, category: @category , comments: @comments }
   end
 end

@@ -1,5 +1,5 @@
 class AddHeaderToPost < ActiveRecord::Migration[7.1]
   def change
-    add_column :posts, :header, :string
+    add_column :posts, :title, :string
   end
 end
