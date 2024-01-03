@@ -1,11 +1,11 @@
 class PostsController < ApplicationController
   def index
-    @posts = Post.all
+    @posts = Article.all
     render json: { posts: @posts }
   end
 
   def show
-    @post = Post.find(params[:id])
+    @post = Article.find(params[:id])
     @category = Category.find(@post.category_id).name
     
     @comments = Comment.where(post_id: @post.id)
