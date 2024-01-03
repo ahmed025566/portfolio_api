@@ -89,13 +89,13 @@ Rails.application.configure do
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
 
     #mailer config
-    config.action_mailer.delivery_method = :smtp
-    config.action_mailer.smtp_settings = {
-      address:              'smtp.elasticemail.com',
-      port:                 2525,
-      user_name:            'ahmedsalh025566@gmail.com',
-      password:             'E314595548F3BC844F7A84E853212D794ADB',
-      authentication:       'plain',
-      enable_starttls_auto: true
-    }
+    # config.action_mailer.delivery_method = :smtp
+    # config.action_mailer.smtp_settings = {
+    #   address:              'smtp.elasticemail.com',
+    #   port:                 2525,
+    #   user_name:            'ahmedsalh025566@gmail.com',
+    #   password:             'E314595548F3BC844F7A84E853212D794ADB',
+    #   authentication:       'plain',
+    #   enable_starttls_auto: true
+    # }
 end
