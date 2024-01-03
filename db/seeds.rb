@@ -9,7 +9,7 @@
 #   end
 
 Category.create!(name: 'Professional Development')
-Post.create!(title: "Overcoming Challenges in Software Development: A Developer's Guide", category_id: Category.first.id, text: "Software development is a dynamic field that presents developers with various challenges throughout their careers. Whether you're a seasoned professional or just starting in the industry, understanding and overcoming these challenges is essential for your growth and success. In this post, we'll explore some common challenges that developers face and discuss strategies for overcoming them.
+Article.create!(title: "Overcoming Challenges in Software Development: A Developer's Guide", category_id: Category.first.id, text: "Software development is a dynamic field that presents developers with various challenges throughout their careers. Whether you're a seasoned professional or just starting in the industry, understanding and overcoming these challenges is essential for your growth and success. In this post, we'll explore some common challenges that developers face and discuss strategies for overcoming them.
 
 Technical Complexity:
 
@@ -40,7 +40,7 @@ Software development presents a myriad of challenges, but with the right mindset
 
 Category.create!(name: 'Technology')
 
-Post.create!(title: "The Evolution of Frontend Development: From HTML to Modern Frameworks", category_id: Category.second.id, text: "Frontend development has undergone a remarkable evolution over the years, transitioning from simple HTML pages to complex, interactive web applications powered by modern frameworks and libraries. In this post, we'll take a journey through the history of frontend development, highlighting key milestones and innovations that have shaped the way we build user interfaces for the web.
+Article.create!(title: "The Evolution of Frontend Development: From HTML to Modern Frameworks", category_id: Category.second.id, text: "Frontend development has undergone a remarkable evolution over the years, transitioning from simple HTML pages to complex, interactive web applications powered by modern frameworks and libraries. In this post, we'll take a journey through the history of frontend development, highlighting key milestones and innovations that have shaped the way we build user interfaces for the web.
 
 The Era of Static Web Pages (HTML/CSS):
 
@@ -71,7 +71,7 @@ The evolution of frontend development has been marked by continuous innovation, 
 
 Category.create!(name: "Digital Trends")
 
-Post.create!(title: "The Power of Progressive Web Apps (PWAs) in Modern Web Development", category_id: Category.third.id, text: "Progressive Web Apps (PWAs) have emerged as a powerful approach to building web applications that offer a native app-like experience while leveraging the reach and accessibility of the web. In this post, we'll explore the key features and benefits of PWAs, as well as their impact on modern web development practices.
+Article.create!(title: "The Power of Progressive Web Apps (PWAs) in Modern Web Development", category_id: Category.third.id, text: "Progressive Web Apps (PWAs) have emerged as a powerful approach to building web applications that offer a native app-like experience while leveraging the reach and accessibility of the web. In this post, we'll explore the key features and benefits of PWAs, as well as their impact on modern web development practices.
 
 What Are Progressive Web Apps (PWAs)?
 
@@ -102,7 +102,7 @@ Progressive Web Apps (PWAs) have redefined the landscape of web development by o
 
 Category.create!(name: 'Technology Trends')
 
-Post.create!(title: "The Role of Artificial Intelligence in Modern Web Development", category_id: Category.last.id, text: "Artificial Intelligence (AI) is revolutionizing the way we build and interact with web applications. In this post, we'll explore the growing role of AI in modern web development, from enhancing user experiences to automating complex tasks.
+Article.create!(title: "The Role of Artificial Intelligence in Modern Web Development", category_id: Category.last.id, text: "Artificial Intelligence (AI) is revolutionizing the way we build and interact with web applications. In this post, we'll explore the growing role of AI in modern web development, from enhancing user experiences to automating complex tasks.
 
 AI-Powered User Experiences:
 
